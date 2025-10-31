@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Neem contact op met Horizon Hub">
+    <title>Contact - Horizon Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Logo">
+                Horizon Hub
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="hoe-het-werkt.html" class="nav-link">Hoe het werkt</a></li>
+                <li><a href="over-ons.html" class="nav-link">Over ons</a></li>
+                <li><a href="partners.html" class="nav-link">Partners</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 50vh; background: linear-gradient(135deg, #ffeb3b 0%, #ffeb3b 100%);">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Neem Contact Met Ons Op</h1>
+                <p>Wij staan klaar om uw vragen te beantwoorden en u te helpen bij het realiseren van sociale impact</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-#ffffff">
+        <div class="container">
+            <div class="contact-container">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2 style="font-size: 2rem; margin-bottom: 1rem;">Laten We Verbinden</h2>
+                    <p style="color: var(--text-light); margin-bottom: 2rem;">
+                        Of u nu een vraag heeft, partner wilt worden, of gewoon meer wilt weten over Horizon Hub - we horen graag van u. Ons team staat klaar om u te helpen.
+                    </p>
+
+                    <!-- Contact Methods -->
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3 style="font-size: 1.125rem; margin-bottom: 0.5rem;">Email</h3>
+                            <a href="mailto:info@horizonhub.nl" style="color: var(--text-light);">info@horizonhub.nl</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3 style="font-size: 1.125rem; margin-bottom: 0.5rem;">Telefoon</h3>
+                            <a href="tel:+31123456789" style="color: var(--text-light);">+31 (0)12 345 6789</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3 style="font-size: 1.125rem; margin-bottom: 0.5rem;">Adres</h3>
+                            <p style="color: var(--text-light);">
+                                Horizon Hub<br>
+                                Innovatiestraat 123<br>
+                                1234 AB Amsterdam<br>
+                                Nederland
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h3 style="font-size: 1.125rem; margin-bottom: 0.5rem;">Openingstijden</h3>
+                            <p style="color: var(--text-light);">
+                                Maandag - Vrijdag: 9:00 - 17:00<br>
+                                AI Support: 24/7 beschikbaar
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Social Media -->
+                    <div style="margin-top: 2rem;">
+                        <h3 style="font-size: 1.125rem; margin-bottom: 1rem;">Volg Ons</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link" style="background: #ffeb3b;">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link" style="background: #ffeb3b;">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link" style="background: #ffeb3b;">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link" style="background: #ffeb3b;">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2 style="font-size: 1.75rem; margin-bottom: 1.5rem;">Stuur Ons Een Bericht</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Naam *</label>
+                            <input type="text" id="name" name="name" required placeholder="Uw volledige naam">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mailadres *</label>
+                            <input type="email" id="email" name="email" required placeholder="uw.email@voorbeeld.nl">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Telefoonnummer</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+31 6 1234 5678">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="organization">Organisatie</label>
+                            <input type="text" id="organization" name="organization" placeholder="Uw organisatie (optioneel)">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Onderwerp *</label>
+                            <select id="subject" name="subject" required style="width: 100%; padding: 1rem; border: 2px solid var(--border-color); border-radius: 10px; font-family: inherit;">
+                                <option value="">Selecteer een onderwerp</option>
+                                <option value="partner">Partner worden</option>
+                                <option value="info">Algemene informatie</option>
+                                <option value="demo">Demo aanvragen</option>
+                                <option value="support">Technische ondersteuning</option>
+                                <option value="samenwerking">Samenwerkingsmogelijkheden</option>
+                                <option value="anders">Anders</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Bericht *</label>
+                            <textarea id="message" name="message" required placeholder="Vertel ons waarmee we u kunnen helpen..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                <input type="checkbox" required style="width: auto;">
+                                <span style="color: var(--text-light); font-size: 0.875rem;">
+                                    Ik ga akkoord met de verwerking van mijn gegevens volgens het privacybeleid *
+                                </span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-paper-plane"></i> Verzend Bericht
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section section-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Bezoek Ons</h2>
+                <p class="section-subtitle">
+                    Bent u in de buurt? Kom gerust langs voor een kop koffie en een gesprek
+                </p>
+            </div>
+
+            <!-- Placeholder for map -->
+            <div style="width: 100%; height: 450px; background: linear-gradient(135deg, #ffeb3b 0%, #ffeb3b 100%); border-radius: 20px; display: flex; align-items: center; justify-content: center; color: #ffffff; position: relative; overflow: hidden;">
+                <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1600') center/cover; opacity: 0.3;"></div>
+                <div style="position: relative; z-index: 1; text-align: center;">
+                    <i class="fas fa-map-marked-alt" style="font-size: 4rem; margin-bottom: 1rem;"></i>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Amsterdam, Nederland</h3>
+                    <p style="opacity: 0.9;">Innovatiestraat 123, 1234 AB</p>
+                    <a href="https://maps.google.com" target="_blank" class="btn btn-primary" style="margin-top: 1.5rem;">
+                        <i class="fas fa-directions"></i> Routebeschrijving
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section section-#ffffff">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Veelgestelde Vragen</h2>
+                <p class="section-subtitle">
+                    Misschien staat uw vraag hier al beantwoord
+                </p>
+            </div>
+
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div style="background: var(--bg-light); padding: 2rem; border-radius: 15px; margin-bottom: 1.5rem; border-left: 4px solid var(--primary-color);">
+                    <h3 style="font-size: 1.25rem; margin-bottom: 1rem; color: var(--primary-color);">
+                        <i class="fas fa-question-circle"></i> Hoe kan ik partner worden van Horizon Hub?
+                    </h3>
+                    <p style="color: var(--text-light); line-height: 1.8;">
+                        U kunt partner worden door het contactformulier in te vullen en 'Partner worden' te selecteren als onderwerp. We nemen dan contact met u op voor een kennismakingsgesprek. Meer informatie vindt u op onze <a href="partners.html" style="color: var(--primary-color); font-weight: 600;">Partners pagina</a>.
+                    </p>
+                </div>
+
+                <div style="background: var(--bg-light); padding: 2rem; border-radius: 15px; margin-bottom: 1.5rem; border-left: 4px solid var(--secondary-color);">
+                    <h3 style="font-size: 1.25rem; margin-bottom: 1rem; color: var(--secondary-color);">
+                        <i class="fas fa-question-circle"></i> Wat zijn de kosten voor het gebruik van Horizon Hub?
+                    </h3>
+                    <p style="color: var(--text-light); line-height: 1.8;">
+                        De kosten zijn afhankelijk van het type partnerschap en de diensten die u gebruikt. We bieden maatwerk oplossingen voor verschillende soorten organisaties. Neem contact met ons op voor een persoonlijk gesprek over de mogelijkheden.
+                    </p>
+                </div>
+
+                <div style="background: var(--bg-light); padding: 2rem; border-radius: 15px; margin-bottom: 1.5rem; border-left: 4px solid var(--accent-color);">
+                    <h3 style="font-size: 1.25rem; margin-bottom: 1rem; color: var(--accent-color);">
+                        <i class="fas fa-question-circle"></i> Hoe werkt de 24/7 AI-ondersteuning?
+                    </h3>
+                    <p style="color: var(--text-light); line-height: 1.8;">
+                        Onze AI-assistenten zijn altijd beschikbaar om vragen te beantwoorden, data-analyses uit te voeren en ondersteuning te bieden bij uw projecten. Partners krijgen toegang tot deze tools via ons platform. De AI gebruikt geavanceerde algoritmes en is getraind op sociale vraagstukken.
+                    </p>
+                </div>
+
+                <div style="background: var(--bg-light); padding: 2rem; border-radius: 15px; margin-bottom: 1.5rem; border-left: 4px solid var(--success-color);">
+                    <h3 style="font-size: 1.25rem; margin-bottom: 1rem; color: var(--success-color);">
+                        <i class="fas fa-question-circle"></i> Hoe wordt data privacy gewaarborgd?
+                    </h3>
+                    <p style="color: var(--text-light); line-height: 1.8;">
+                        We hanteren de hoogste standaarden voor data privacy en veiligheid. Alle data wordt verwerkt volgens AVG-richtlijnen, en we gebruiken geavanceerde encryptie en beveiligingsmaatregelen. Partners hebben volledige controle over hun data.
+                    </p>
+                </div>
+
+                <div style="text-align: center; margin-top: 2rem;">
+                    <p style="color: var(--text-light);">Heeft u nog andere vragen?</p>
+                    <a href="#contactForm" class="btn btn-primary" style="margin-top: 1rem;">
+                        Stel uw vraag
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Horizon Hub</h3>
+                <p>Brengt jongeren, stichtingen en beleidsmakers samen om structurele verandering te realiseren door data, vertrouwen en samenwerking.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Snelle Links</h3>
+                <a href="index.html">Home</a>
+                <a href="hoe-het-werkt.html">Hoe het werkt</a>
+                <a href="over-ons.html">Over ons</a>
+                <a href="partners.html">Partners</a>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <a href="mailto:info@horizonhub.nl"><i class="fas fa-envelope"></i> info@horizonhub.nl</a>
+                <a href="tel:+31123456789"><i class="fas fa-phone"></i> +31 (0)12 345 6789</a>
+                <a href="contact.html">Contactformulier</a>
+            </div>
+
+            <div class="footer-section">
+                <h3>Nieuwsbrief</h3>
+                <p>Blijf op de hoogte van onze laatste ontwikkelingen</p>
+                <form style="margin-top: 1rem;">
+                    <input type="email" placeholder="Uw e-mailadres" style="width: 100%; padding: 0.75rem; border-radius: 5px; border: none; margin-bottom: 0.5rem;">
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Inschrijven</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; <span id="currentYear">2024</span> Horizon Hub. Alle rechten voorbehouden.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
