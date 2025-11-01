@@ -184,7 +184,7 @@ a {
 
 .hero-content {
     max-width: 700px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .hero h1 {
@@ -219,8 +219,8 @@ a {
 }
 
 .btn-primary {
-    background: #ffffff;
-    color: var(--primary-color);
+    background: #000000;
+    color: #ffffff;
 }
 
 .btn-primary:hover {
@@ -229,14 +229,14 @@ a {
 }
 
 .btn-secondary {
-    background: rgba(255, 255, 255, 0.2);
-    color: #ffffff;
-    border: 2px solid #ffffff;
+    background: rgba(0, 0, 0, 0.1);
+    color: #000000;
+    border: 2px solid #000000;
 }
 
 .btn-secondary:hover {
-    background: #ffffff;
-    color: var(--primary-color);
+    background: #000000;
+    color: #ffffff;
 }
 
 /* ================================
@@ -398,7 +398,7 @@ a {
     width: 60px;
     height: 60px;
     background: var(--gradient-1);
-    color: #ffffff;
+    color: #000000;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -422,7 +422,7 @@ a {
    ================================ */
 .cta-section {
     background: var(--gradient-1);
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 5rem 2rem;
     position: relative;
@@ -492,7 +492,7 @@ a {
     width: 50px;
     height: 50px;
     background: var(--gradient-1);
-    color: #ffffff;
+    color: #000000;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -542,7 +542,7 @@ a {
 .btn-submit {
     width: 100%;
     background: var(--gradient-1);
-    color: #ffffff;
+    color: #000000;
     padding: 1rem;
     border: none;
     border-radius: 10px;
